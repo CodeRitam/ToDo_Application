@@ -28,7 +28,7 @@ const TodoItems: React.FC<TodoItemsProps> = ({
       >
         <img src={isComplete ? tick : not_tick} alt="tick" className="w-6" />
         <p
-          className={`text-slate-700 ml-4 text-[17px] decoration-slate-500 ${
+          className={`text-white ml-4 text-[17px] decoration-white ${
             isComplete ? "line-through" : ""
           }`}
         >

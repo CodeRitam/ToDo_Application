@@ -55,7 +55,7 @@ const Todo = () => {
   }, [todolist]);
 
   return (
-    <div className="bg-white place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl">
+    <div className="bg-gradient-to-b from-indigo-500 via-violet-600 to-purple-900 place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl">
       {/*------- title section -------*/}
 
       <div className="flex items-center mt-7 gap-2">
